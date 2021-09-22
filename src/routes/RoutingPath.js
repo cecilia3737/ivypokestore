@@ -1,7 +1,7 @@
 const signInView = "/signin"
-const homeView = "/home"
+const homeView = "/"
 const storeView = "/store"
-const profileView = "profile"
+const profileView = "/profile"
 const settingsView = "/settings"
 
 export default {

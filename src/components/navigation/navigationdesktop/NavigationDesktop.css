@@ -34,4 +34,11 @@ a:hover{
     width: 9rem;
     display: grid;
     place-self: start;
+    margin-left: 9em;
+}
+
+.nav_desktop_user_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
 }

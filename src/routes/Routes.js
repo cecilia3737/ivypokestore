@@ -16,7 +16,7 @@ export const Routes = ({children}) => {
             <Route exact path={RoutingPath.storeView} component={StoreView} />
             <Route exact path={RoutingPath.profileView} component={ProfileView} />
             <Route exact path={RoutingPath.settingsView} component={SettingsView} />
-            <Route path={'/'} component={HomeView} />
+            <Route path={RoutingPath.homeView} component={HomeView} />
         </Switch>
         </BrowserRouter>
     )

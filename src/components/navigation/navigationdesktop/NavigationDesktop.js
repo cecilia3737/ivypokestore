@@ -5,6 +5,7 @@ import { UserContext } from '../../../shared/provider/UserProvider'
 import { Profile } from '../../profile/Profile'
 import './NavigationDesktop.css'
 import logo from "../../../shared/img/navlogo.png"
+import { Cart } from '../../cart/Cart'
 
 export const NavigationDesktop = () => {
     const [authenticatedUser, setAuthenticatedUser] = useContext(UserContext)
@@ -28,7 +29,11 @@ export const NavigationDesktop = () => {
                 <Link to={RoutingPath.homeView}> Home </Link>
                 <Link to={RoutingPath.storeView}> Store </Link>
             </nav>
+            <div className="nav_desktop_user_container">
             {renderLogin()}
+            <Cart/>
+            </div>
+            
         </div>
     )
 }

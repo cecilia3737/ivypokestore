@@ -1,0 +1,35 @@
+.desktop_footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    background-color: #97BF63;
+    position: relative;
+    bottom:0%;
+    width: 100%;
+    padding: 2rem 0rem;
+}
+
+.footer_image{
+    width: 3rem;
+}
+
+.footer_socials{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1em;
+}
+
+.footer_social_icon{
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    border-radius: 30%;
+}
+
+.footer_text{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    margin: 0.3rem;
+
+}

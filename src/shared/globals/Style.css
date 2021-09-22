@@ -1,3 +1,25 @@
 * {
     margin: 0%;
 }
+
+input{
+    padding: 0.5rem;
+    border-radius: 9px;
+    margin-bottom: 1rem;
+    color: #6c8177;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+button{
+    margin-top: 1.5rem;
+    background-color: #616C3D;
+    border-radius: 9px;
+    padding: 0.6rem 1rem 0.6rem 1rem;
+    font-size: 0.9rem;
+    color: white;
+}
+
+button:hover{
+    background-color: #849c35;
+}
