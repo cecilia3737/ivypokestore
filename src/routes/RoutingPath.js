@@ -3,6 +3,7 @@ const homeView = "/"
 const storeView = "/store"
 const profileView = "/profile"
 const settingsView = "/settings"
+const productView = "/pokemon"
 
 export default {
     signInView,
@@ -10,4 +11,5 @@ export default {
     storeView,
     profileView,
     settingsView,
+    productView,
 }

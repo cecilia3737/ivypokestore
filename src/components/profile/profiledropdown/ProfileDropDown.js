@@ -6,7 +6,6 @@ import RoutingPath from '../../../routes/RoutingPath'
 import LocalStorage from '../../../shared/storage/LocalStorage'
 import { useHistory } from 'react-router'
 import avatar from "../../../shared/img/profileimg.png"
-import { Link } from 'react-router-dom'
 
 
 export const ProfileDropDown = () => {

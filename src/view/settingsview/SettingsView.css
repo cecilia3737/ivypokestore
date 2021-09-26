@@ -1,0 +1,48 @@
+.settings_main{
+    background-color: #C9DAD2;
+    display: grid;
+    place-items: center;
+}
+
+.settings_container{
+    background-color: #E0EDE6;
+    width: 45%;
+    display: grid;
+    place-items: center;
+    border-radius: 1.5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 4rem;
+    margin: 3rem 0rem;
+}
+
+.settings_headertext{
+    margin-bottom: 3.5rem;
+}
+
+.settings_text{
+    font-family: Verdana, Helvetica, sans-serif;
+    margin-bottom: 3rem;
+    color:  #003225;
+    font-size: 0.9rem;
+}
+
+.settings_username_input{
+    margin-top: -2em;
+}
+
+.settings_poke_image{
+    width: 14em;
+    place-self: end;
+    margin-top: -15em;
+    margin-right: -15rem;
+    
+}
+
+.settings_border_box{
+    display: grid;
+    margin: 0%;
+    background-color: #77A68A;
+    width: 100%;
+    height: 7rem;
+    bottom: 0%;
+}

@@ -3,7 +3,6 @@ import { Routes } from "./routes/Routes";
 import { UserProvider } from "./shared/provider/UserProvider";
 import './shared/globals/Style.css'
 import { Footer } from "./components/footer/Footer";
-import { HomeView } from "./view/homeview/HomeView";
 
 
 function App() {
